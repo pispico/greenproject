@@ -16,13 +16,13 @@
 #define DHTTYPE DHT22
 DHT dht(DHT_DATA_PIN, DHTTYPE);
 
-const char* SSID          = "Borgue";
-const char* PASSWORD      = "p2r4w4j5";
+const char* SSID          = "ssid_wifi";
+const char* PASSWORD      = "mypass";
 
-const char* MQTT_SERVER   = "52.67.135.203";
+const char* MQTT_SERVER   = "mqtt_server_ip";
 const int MQTT_PORT       =  1883;
-const char* MQTT_USER     = "esp8266";
-const char* MQTT_PASSWORD = "esp8266123";
+const char* MQTT_USER     = "MQTT_USER";
+const char* MQTT_PASSWORD = "MQTT_PASSWORD";
 const char* MQTT_CLIENT   = "00001";
 
 const char* TOPICO_ESCUTA  = "topicoEscuta";
